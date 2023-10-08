@@ -1,0 +1,52 @@
+
+header {
+    border-radius: 20px;
+    background-color: #D0F5AE;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+    color:#509312;
+}
+
+.filters {
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+}
+
+
+#recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 20px;
+    height: 280px;
+    margin: 10px;
+    background: #D0F5AE;
+    align-items: center;
+    max-width: 300px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+h2 {
+    color: #509312;
+}
+img {
+    border-radius: 20px;
+    height: 220px;
+    width: 290px;
+    object-fit: cover;
+}
+button {
+    border-radius: 20px;
+    background: #D0F5AE;
+}
